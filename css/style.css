@@ -1,0 +1,409 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+@font-face{
+font-family: oswald;
+src: url(../fonts/Oswald-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: opensans;
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+/*start nav*/
+nav{
+    background-color: black;
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 15px;
+}
+nav a:last-child{float: right;}
+nav a:hover{
+    background-color: #ccc;
+    color: black;
+}
+
+/*end nav*/
+
+
+
+/*start text box*/
+
+#textbox{
+    text-align: center;
+padding: 60px;
+font-family: oswald;
+}
+
+#textbox h1{
+font-size: 3rem;
+
+}
+
+#textbox p{
+    font-size: 1rem;
+
+}
+
+#textbox p span{
+    background-color: black;
+    color: white;
+    padding: 0px 10px;
+
+}
+/*end text box*/
+
+/*start header*/
+header{
+position: relative;
+}
+
+header #above{
+position: absolute;
+top: 35%;
+left: 50px;
+color: white;
+font-family: oswald;
+}
+
+header #above h1{
+font-size: 4rem;
+line-height: 96px;
+letter-spacing: 3px;
+}
+
+header #above h2{
+    font-size: 2.5rem;
+    line-height: 54px;
+    letter-spacing: 5px;
+
+}
+header #above button{
+    border: none;
+    padding: 12px 22px;
+    font-size: 1.2rem;
+   background-color: rgb(83, 79, 79);
+
+}
+header #above button:hover{
+    background-color: rgb(184, 174, 174)}
+
+/*end header*/
+
+
+/*start main*/
+main{
+    background-color: #f1f1f1;
+
+}
+
+/*start left side*/
+
+main #leftside{
+    float: left;
+    width: 70%;
+background-color: #f1f1f1;
+padding: 20PX;
+}
+main #leftside article{
+    padding: 20PX 30PX;
+    background-color: white;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+main #leftside article .title{
+    text-align: center;
+    font-family: oswald;
+    padding-bottom: 25px;
+}
+
+main #leftside article .articledescription{
+    text-align: center;
+    font-family: oswald; padding-bottom: 15px;
+
+}
+
+main #leftside article .articledescription span{
+    color: lightgray;
+}
+main #leftside article .content{
+    font-family: opensans;
+    text-align: justify;
+    line-height: 23px;
+    font-size: 15px;
+}
+main #leftside article .content p{
+    padding: 20px;
+}
+main #leftside article .button .left{
+float: left;
+padding: 8px 13px;
+border: gray 1px;
+font-weight: bold;
+background-color: white;
+}
+main #leftside article .button {
+    padding-bottom: 60px;
+}
+
+main #leftside article .button .right{
+float: right;
+background-color: black;
+color: white;
+padding: 8px 13px;
+border: black;
+font-weight: bold;
+}
+main #leftside article .button .left.button .right span{
+    background-color: white;
+    color: black;
+    padding: 0px 0px;
+    
+}
+main #leftside article .button .right:hover{
+    background-color: silver;
+    border-color: silver;
+    color: black;
+}
+main #leftside article .button .left:hover{
+    background-color: silver;
+    border-color: silver;
+}
+.hr{
+    border-bottom: 1px solid gray;
+}
+main #leftside article .articlefooter{
+
+}
+
+main #leftside article .articlefooter .leftsection{
+float: left;
+width: 15%;
+padding: 10px;
+}
+
+main #leftside article .articlefooter .rightsection{
+float: right;
+width: 85%;
+padding: 10px;
+}
+main #leftside article .articlefooter .rightsection p{
+padding-bottom: 20px;
+font-size: 1.1rem;
+}
+main #leftside article .articlefooter .rightsection p span{
+    color: silver;
+}
+
+/*start right side*/
+
+main #rightside{
+    float: right;
+    width: 30%;
+background-color: #f1f1f1;
+padding: 20px 0px;
+} 
+/*start name*/
+main #rightside .rightintro{
+
+
+}
+
+main #rightside .rightintro p{
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-top: -10px;
+    font-size: 15px;
+    font-family: opensans;
+    line-height: 23px;
+    padding: 5px 10px;
+}
+
+main #rightside .rightsections{
+margin: 20px 0px;
+}
+
+main #rightside .rightsections h3{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-family: oswald;
+    font-weight: normal;
+}
+
+main #rightside .rightsections .sectioncontent{
+    background-color: rgb(255, 255, 255);
+}
+/*start posts*/
+main #rightside .rightsections #Posts{
+
+}
+main #rightside .rightsections #Posts ul{
+    padding: 0px;
+ list-style-type: none;
+}
+main #rightside .rightsections #Posts ul li{
+    padding: 10px;
+    border-top: 1px solid silver;
+
+}
+main #rightside .rightsections #Posts ul li:hover{
+    background-color: silver;
+    
+}
+main #rightside .rightsections #Posts ul li .lefts{
+float: left;
+width: 15%;
+}
+main #rightside .rightsections #Posts ul li .rights{
+float: right;
+width: 85%;
+}
+
+main #rightside .rightsections #Posts ul li .rights p{
+    padding: 7px 12px;
+}
+
+/*start advertise*/
+main #rightside .rightsections #Advertise{
+padding: 20px;
+}
+
+main #rightside .rightsections #Advertise section{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 100px;
+}
+
+/*start tags*/
+main #rightside .rightsections #Tags{
+    padding: 10px 20px 30px;
+}
+
+main #rightside .rightsections #Tags span{
+    background-color: silver;
+    padding: 0px 7px;
+    display: inline-block;
+    margin-top: 15px;
+    font-family: opensans;
+    font-size: 0.9rem;
+}
+main #rightside .rightsections #Tags span:first-child{
+    background-color: black;
+    color: white;
+}
+
+
+/*startInspiration*/
+
+
+main #rightside .rightsections #Inspiration{
+
+}
+main #rightside .rightsections #Inspiration div{
+    width: 50%;
+    padding: 10px;
+    float: left;
+
+}
+
+/* start follow me*/
+
+main #rightside .rightsections #Follow{
+padding: 20px;
+}
+main #rightside .rightsections #Follow a{
+    color: black;
+    font-size: 1.3rem;
+    padding: 3px;
+    display: inline-block;
+}
+main #rightside .rightsections #Follow a:hover{
+    color: gray;
+}
+
+/*start SUBSCRIBE*/
+
+main #rightside .rightsections #SUBSCRIBE{
+padding: 20px;
+}
+main #rightside .rightsections #SUBSCRIBE p{
+font-family: opensans;
+font-size: 15px;
+line-height: 23px;
+margin-bottom: 15px;
+
+}
+main #rightside .rightsections #SUBSCRIBE input{
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+main #rightside .rightsections #SUBSCRIBE button{
+width: 100%;
+background-color: #f44336;
+color: white;
+padding: 10px;
+border: none;
+
+}
+
+main #rightside .rightsections #SUBSCRIBE button:hover{
+    background-color: silver;
+    color: black;
+}
+
+
+
+
+
+
+
+.clear{
+    clear: both;
+}
+
+/*end main*/
+
+
+
+
+
+/*start footer*/
+
+footer{
+    background-color: #616161;
+    padding: 50px;
+
+}
+footer > a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+
+}
+footer p {
+    padding-top: 25px;
+    color: white;
+    font-size: 1.1rem;
+}
+footer p a {
+    color: white;
+}
+/*end footer*/
+
+
+
+
